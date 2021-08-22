@@ -11,6 +11,7 @@ repository = "https://github.com/bvenkatesh-ai/streamlit_pages"
 
 [tool.poetry.dependencies]
 python = "^3.6 3.7 3.8 3.9"
+streamlit ="^0.84.1"
 
 [tool.poetry.dev-dependencies]
 

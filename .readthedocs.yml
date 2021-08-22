@@ -1,0 +1,14 @@
+# Required
+version: 2
+
+# Image to use
+build:
+  image: testing # using testing image for now, until 3.9 is supported on "latest"
+
+# Configuration
+python:
+  version: 3.6 3.7 3.8 3.9
+  install:
+    - requirements: docs/requirements.txt
+    - method: pip
+      path: .

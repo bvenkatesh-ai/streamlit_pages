@@ -15,24 +15,24 @@ $ pip install streamlit-pages
 
 ## Usage
 ```bash
-$ import streamlit as st
-$ import streamlit_pages.streamlit_pages import MultiPage
+ import streamlit as st
+ import streamlit_pages.streamlit_pages import MultiPage
 def home():
     st.write("Welcome to home page")
-    if st.button("Hello"):
-        st.write("Hello World")
+    if st.button("Click Home"):
+        st.write("Welcome to home page")
 
 
 def about():
     st.write("Welcome to about page")
-    if st.button("about"):
-        st.write("about World")
+    if st.button("Click about"):
+        st.write("Welcome to About page")
 
 
 def contact():
     st.write("Welcome to contact page")
-    if st.button("Cont"):
-        st.write("contact World")
+    if st.button("Click Contact"):
+        st.write("Welcome to contact page")
 
 
 # call app class object
@@ -43,6 +43,8 @@ app.add_page("About",about)
 app.add_page("Contact",contact)
 app.run()
 ```
+
+![Alt text](show.gif "Output")
 ## Contributors
 
 We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/bvenkatesh-ai/streamlit_pages/graphs/contributors).

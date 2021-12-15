@@ -26,9 +26,9 @@ class MultiPage:
     def run(self):
         tot_pages = len(self.menu)
         if self.location =="body":
-            cols = st.beta_columns(tot_pages)
+            cols = st.columns(tot_pages)
         if self.location =="sidebar":
-            cols = st.sidebar.beta_columns(tot_pages)
+            cols = st.sidebar.columns(tot_pages)
         but_values = [cols[i].button(self.menu[i]['title'],key=self.menu[i]['title']) for i in range(tot_pages)]
         # Query query_params to get the required page
         query_params = st.experimental_get_query_params()

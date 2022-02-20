@@ -16,7 +16,9 @@ $ pip install streamlit-pages
 ## Usage
 ```bash
  import streamlit as st
- import streamlit_pages.streamlit_pages import MultiPage
+ from streamlit_pages.streamlit_pages import MultiPage
+ 
+ 
 def home():
     st.write("Welcome to home page")
     if st.button("Click Home"):

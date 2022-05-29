@@ -11,7 +11,7 @@ repository = "https://github.com/bvenkatesh-ai/streamlit_pages"
 
 [tool.poetry.dependencies]
 python = "^3.6"
-streamlit ="^0.84"
+streamlit ="^1.9.0"
 
 [tool.poetry.dev-dependencies]
 "backports.functools-lru-cache" = "*"
